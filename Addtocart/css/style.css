@@ -8,7 +8,8 @@ html, body{
     background-color: rgb(255, 211, 244);
     margin: 0;
     padding: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Comfortaa", sans-serif;
+    
 }
 
 .container{
@@ -27,12 +28,13 @@ input{
     border-radius: 8px;
     font-size: 20px;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Arima', system-ui;
     margin: 10px 0;
 }
 
 button{
     color: black;
+    background-color: aliceblue;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -42,3 +44,26 @@ button{
     margin: 10px 0;
 
 }
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(235, 199, 232);
+    padding: 10px;
+    border-radius: 8px;
+    flex-grow: 1;
+    
+}
+
+ul li:hover{
+    background-color: aliceblue;
+}    
+
