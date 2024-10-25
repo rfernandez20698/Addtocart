@@ -63,6 +63,10 @@ ul li{
     
 }
 
+button:hover{
+    background-color: rgb(255, 211, 244);
+}
+
 ul li:hover{
     background-color: aliceblue;
 }    
